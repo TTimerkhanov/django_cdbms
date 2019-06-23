@@ -10,14 +10,17 @@ setup(
     # Give a short description about your library
     author='Timur Timerkhanov',  # Type in your name
     author_email='timurgrunge@gmail.com',  # Type in your E-Mail
-    url='http://gititis.kpfu.ru/Timerhanov/django-cdbms',
+    url='https://github.com/TTimerkhanov/django_cdbms/',
     # Provide either the link to your github or to your website
-    download_url='http://gititis.kpfu.ru/Timerhanov/django-cdbms/-/archive/v_01/django-cdbms-v_01.tar.gz',
+    download_url='https://github.com/TTimerkhanov/django_cdbms/archive/v_01.tar.gz',
     # I explain this later on
     keywords=[],  # Keywords that define your package best
     install_requires=[  # I get to this in a second
-        'validators',
-        'beautifulsoup4',
+        'Django',
+        'djongo',
+        'neomodel',
+        'psycopg2',
+        'future',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
